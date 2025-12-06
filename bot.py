@@ -131,7 +131,7 @@ def start_flask():
 Thread(target=start_flask, daemon=True).start()
 
 # ==================== بخش اصلی بات تلگرام ====================
-TOKEN = os.environ.get("TELEGRAM_TOKEN", "8260577725:AAEaYnyVwR_VXHTBDJmOpX2kztd5Lf3YwJQ")
+TOKEN = os.environ.get("TELEGRAM_TOKEN", "00")
 
 print("=" * 60)
 print("🚀 بات تلگرام دائمی - راه‌اندازی شد")
